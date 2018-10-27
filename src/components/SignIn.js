@@ -60,7 +60,7 @@ class SignIn extends Component {
             </FormGroup>
             <FormGroup>
               <Label>Password</Label>
-              <Input onChange={this.onPasswordChange} type="password" placeholder="password placeholder" />
+              <Input onChange={this.onPasswordChange} type="password" placeholder="Enter Password" />
             </FormGroup>
             <FormGroup>
               <Button onClick={this.onSignIn} color="primary" size="lg" block>Sign In</Button>
